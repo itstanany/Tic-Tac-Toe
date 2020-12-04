@@ -1,0 +1,76 @@
+html,
+body,
+figure,
+figcaption,
+ul,
+li,
+h1 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    text-align: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 30px;
+}
+
+
+ul {
+    width: 300px;
+    height: 300px;
+    padding: 0;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    border: 5px solid black;
+}
+
+li {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background-color: grey;
+    border-style: solid;
+    border-width: 5px;
+    font-weight: bold;
+    font-size: 6em;
+    text-align: center;
+    line-height: 80px;
+}
+
+.winner {
+    color: white;
+    border-color: black;
+    background-color: green;
+}
+
+.loser {
+    color: red;
+    border-color: black;
+    background-color: white;
+}
+
+.player {
+    color: black;
+    background-color: white;
+}
+
+.hoverEffect {
+    background-color: yellow;
+    cursor: pointer;
+}
